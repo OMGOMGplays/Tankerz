@@ -1,7 +1,7 @@
 {
   "Title": "Tankerz",
   "Type": "game",
-  "Org": "local",
+  "Org": "tdgames",
   "Ident": "tankerz",
   "Schema": 1,
   "HasAssets": true,

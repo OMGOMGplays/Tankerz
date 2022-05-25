@@ -1,0 +1,43 @@
+MMSettings {
+    color: white;
+    position: absolute;
+
+    .optionsbutton {
+        width: 215px;
+        height: 55px;
+        font-size: 25px;
+        font-family: Comic Sans MS;
+        position: absolute;
+        padding: 8px;
+        left: 350px;
+        background-color: blue;
+        top: 550px;
+        border-radius: 15px;
+        border: 5px;
+        border-color: rgb(109, 216, 216);
+
+        transition: all 0.2s ease-in;
+    }
+
+    .optionsbutton:hover {
+        cursor: pointer;
+        border: 8px;
+        width: 220px;
+        height: 60px;
+        font-size: 26px;
+        padding: 10px;
+        left: 348px;
+        top: 548px;
+    }
+
+    .optionsbutton:active {
+        top: 550px;
+        left: 350px;
+        border: 5px;
+        font-size: 25px;
+        width: 215px;
+        height: 55px;
+
+        transition: all 0.1s ease-in-out;
+    }
+}

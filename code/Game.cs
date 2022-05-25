@@ -8,7 +8,10 @@ namespace TZ
 	{
 		public TZGame() 
 		{
-
+			if (IsServer) 
+			{
+				_ = new TZHud();
+			}
 		}
 
 		public override void ClientJoined( Client cl )
