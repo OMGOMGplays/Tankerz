@@ -1,0 +1,27 @@
+{
+  "Title": "Tankerz",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "tankerz",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [
+    "/ui/*"
+  ],
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": "TZ",
+  "Metadata": {
+    "MapList": [
+      "facepunch.construct"
+    ],
+    "PerMapRanking": false,
+    "LeaderboardType": 0,
+    "RankType": 0,
+    "MapSelect": 0,
+    "GameNetworkType": 0,
+    "MaxPlayers": 8,
+    "MinPlayers": 1
+  }
+}
