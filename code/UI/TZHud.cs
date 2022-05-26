@@ -24,10 +24,8 @@ namespace TZ
 		public void CreateHudElements()
 		{
 			// Main Menu \\
-			RootPanel.AddChild<MainMenuBackground>();
-
-			// Main Menu Buttons \\
-			RootPanel.AddChild<MMSettings>();
+			RootPanel.AddChild<MainMenu>();
+			RootPanel.AddChild<TankViewer>();
 
 		}
 	}
