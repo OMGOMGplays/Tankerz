@@ -38,6 +38,28 @@
 			{
 				key = 
 				{
+					m_id = 647225670
+				}
+				value = 
+				{
+					_class = "CSequenceAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -544.0, -320.0 ]
+					m_nNodeID = 
+					{
+						m_id = 647225670
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_tagSpans = [  ]
+					m_sequenceName = "idle"
+					m_playbackSpeed = 1.0
+					m_bLoop = true
+				}
+			},
+			{
+				key = 
+				{
 					m_id = 1360803585
 				}
 				value = 
@@ -59,7 +81,26 @@
 					{
 						m_id = 843203562
 					}
-					m_inputConnectionMap = [  ]
+					m_inputConnectionMap = 
+					[
+						{
+							key = 
+							{
+								m_id = 670601930
+							}
+							value = 
+							{
+								m_nodeID = 
+								{
+									m_id = 647225670
+								}
+								m_outputID = 
+								{
+									m_id = 4294967295
+								}
+							}
+						},
+					]
 					m_nodeManager = 
 					{
 						_class = "CAnimNodeManager"

@@ -225,7 +225,7 @@
 						fade_in_time = 0.2
 						fade_out_time = 0.2
 						looping = false
-						delta = true
+						delta = false
 						worldSpace = false
 						hidden = false
 						anim_markup_ordered = false
@@ -246,7 +246,7 @@
 						fade_in_time = 0.2
 						fade_out_time = 0.2
 						looping = false
-						delta = true
+						delta = false
 						worldSpace = false
 						hidden = false
 						anim_markup_ordered = false
@@ -267,7 +267,7 @@
 						fade_in_time = 0.2
 						fade_out_time = 0.2
 						looping = false
-						delta = true
+						delta = false
 						worldSpace = false
 						hidden = false
 						anim_markup_ordered = false
@@ -293,7 +293,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/Tankerz/Tanks/anims/idle.dmx"
+						source_filename = "models/tanks/anims/idle.dmx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
