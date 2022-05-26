@@ -11,7 +11,7 @@ namespace TZ
 			SetModel("models/tanks/lilwillie.vmdl");
 
 			CameraMode = new ThirdPersonCamera();
-			Animator = new StandardPlayerAnimator();
+			Animator = new TZPlayerAnimator();
 			Controller = new WalkController();
 		}
 	}

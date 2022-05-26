@@ -1,8 +1,9 @@
 using System;
+using Sandbox;
 
-namespace Sandbox
+namespace TZ
 {
-	public class StandardPlayerAnimator : PawnAnimator
+	public class TZPlayerAnimator : PawnAnimator
 	{
 		TimeSince TimeSinceFootShuffle = 60;
 
