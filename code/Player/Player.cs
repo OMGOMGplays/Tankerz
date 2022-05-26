@@ -8,7 +8,7 @@ namespace TZ
 		{
 			base.Respawn();
 
-			SetModel("models/citizen/citizen.vmdl"); // TEMP \\ Switch to tank model when imported - Lokiv
+			SetModel("models/tanks/lilwillie.vmdl");
 
 			CameraMode = new ThirdPersonCamera();
 			Animator = new StandardPlayerAnimator();
