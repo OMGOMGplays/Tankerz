@@ -19,7 +19,7 @@
 							},
 							{
 								from = "tanktracks01.vmat"
-								to = "materials/models/tanks/tanktracks01.vmat"
+								to = "materials/models/tanks/shared/tanktracks01.vmat"
 							},
 						]
 						use_global_default = false
@@ -36,7 +36,7 @@
 						filename = "models/tanks/lilwillie_chassis.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 0.5
+						import_scale = 1.0
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
@@ -204,12 +204,12 @@
 						fade_in_time = 0.2
 						fade_out_time = 0.2
 						looping = false
-						delta = true
+						delta = false
 						worldSpace = false
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/Tankerz/Tanks/anims/layer_trackL.dmx"
+						source_filename = "models/tanks/anims/layer_trackl.dmx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -230,7 +230,49 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/Tankerz/Tanks/anims/layer_trackR.dmx"
+						source_filename = "models/tanks/anims/layer_trackr.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "layer_turretspin"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "Turret"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/tanks/anims/layer_turretspin.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "layer_barrel_updown"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "Barrel_UpDown"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/tanks/anims/layer_barrel_updown.dmx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -252,48 +294,6 @@
 						anim_markup_ordered = false
 						disable_compression = false
 						source_filename = "models/Tankerz/Tanks/anims/idle.dmx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "layer_turretspin"
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = "Turret"
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = true
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/Tankerz/Tanks/anims/layer_turretspin.dmx"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						take = 0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "layer_barrel_updown"
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = "Barrel_UpDown"
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = true
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/Tankerz/Tanks/anims/layer_barrel_updown.dmx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
