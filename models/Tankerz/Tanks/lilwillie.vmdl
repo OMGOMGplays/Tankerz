@@ -49,6 +49,260 @@
 					},
 				]
 			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "TrackL"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "Ltrack_BwheelF"
+								weight = 1.0
+							},
+							{
+								bone = "Ltrack_BwheelM"
+								weight = 1.0
+							},
+							{
+								bone = "Ltrack_BwheelR"
+								weight = 1.0
+							},
+							{
+								bone = "Ltrack_Fwheel"
+								weight = 1.0
+							},
+							{
+								bone = "Ltrack_Rwheel"
+								weight = 1.0
+							},
+							{
+								bone = "Ltrack_TwheelF"
+								weight = 1.0
+							},
+							{
+								bone = "Ltrack_TwheelR"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "TrackR"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "Ltrack_BwheelF"
+								weight = 0.0
+							},
+							{
+								bone = "Ltrack_BwheelM"
+								weight = 0.0
+							},
+							{
+								bone = "Ltrack_BwheelR"
+								weight = 0.0
+							},
+							{
+								bone = "Ltrack_Fwheel"
+								weight = 0.0
+							},
+							{
+								bone = "Ltrack_Rwheel"
+								weight = 0.0
+							},
+							{
+								bone = "Ltrack_TwheelF"
+								weight = 0.0
+							},
+							{
+								bone = "Ltrack_TwheelR"
+								weight = 0.0
+							},
+							{
+								bone = "Rtrack_BwheelF"
+								weight = 1.0
+							},
+							{
+								bone = "Rtrack_BwheelM"
+								weight = 1.0
+							},
+							{
+								bone = "Rtrack_BwheelR"
+								weight = 1.0
+							},
+							{
+								bone = "Rtrack_Fwheel"
+								weight = 1.0
+							},
+							{
+								bone = "Rtrack_Rwheel"
+								weight = 1.0
+							},
+							{
+								bone = "Rtrack_TwheelF"
+								weight = 1.0
+							},
+							{
+								bone = "Rtrack_TwheelR"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "Turret"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "barrel"
+								weight = 0.0
+							},
+							{
+								bone = "turret"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "Barrel_UpDown"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "barrel"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "layer_trackL"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "TrackL"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/Tankerz/Tanks/anims/layer_trackL.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "layer_trackR"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "TrackR"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/Tankerz/Tanks/anims/layer_trackR.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/Tankerz/Tanks/anims/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "layer_turretspin"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "Turret"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/Tankerz/Tanks/anims/layer_turretspin.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "layer_barrel_updown"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "Barrel_UpDown"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/Tankerz/Tanks/anims/layer_barrel_updown.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
 		]
 		model_archetype = "animated_model"
 		primary_associated_entity = "prop_dynamic"
