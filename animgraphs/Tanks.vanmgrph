@@ -1,0 +1,378 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:animgraph2:version{0f7898b8-5471-45c4-9867-cd9c46bcfdb5} -->
+{
+	_class = "CAnimationGraph"
+	m_nodeManager = 
+	{
+		_class = "CAnimNodeManager"
+		m_nodes = 
+		[
+			{
+				key = 
+				{
+					m_id = 534140707
+				}
+				value = 
+				{
+					_class = "CRootAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ -16.0, -320.0 ]
+					m_nNodeID = 
+					{
+						m_id = 534140707
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_inputConnection = 
+					{
+						m_nodeID = 
+						{
+							m_id = 1360803585
+						}
+						m_outputID = 
+						{
+							m_id = 1430178410
+						}
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1360803585
+				}
+				value = 
+				{
+					_class = "CGroupAnimNode"
+					m_sName = "Look Ats"
+					m_vecPosition = [ -256.0, -320.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1360803585
+					}
+					m_networkMode = "ClientPredicted"
+					m_sNote = ""
+					m_inputNodeID = 
+					{
+						m_id = 2092577495
+					}
+					m_outputNodeID = 
+					{
+						m_id = 843203562
+					}
+					m_inputConnectionMap = [  ]
+					m_nodeManager = 
+					{
+						_class = "CAnimNodeManager"
+						m_nodes = 
+						[
+							{
+								key = 
+								{
+									m_id = 59936807
+								}
+								value = 
+								{
+									_class = "CLookAtAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ -160.0, 0.0 ]
+									m_nNodeID = 
+									{
+										m_id = 59936807
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_inputConnection = 
+									{
+										m_nodeID = 
+										{
+											m_id = 2092577495
+										}
+										m_outputID = 
+										{
+											m_id = 670601930
+										}
+									}
+									m_target = "LookTarget"
+									m_param = 
+									{
+										m_id = 826829379
+									}
+									m_weightParam = 
+									{
+										m_id = 615421791
+									}
+									m_lookatChainName = "Turret"
+									m_attachmentName = "forward_reference"
+									m_flYawLimit = 45.0
+									m_flPitchLimit = 45.0
+									m_bResetBase = false
+									m_bLockWhenWaning = false
+									m_bUseHysteresis = false
+									m_flHysteresisInnerAngle = 1.0
+									m_flHysteresisOuterAngle = 20.0
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "NoDamping"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+									}
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 171402011
+								}
+								value = 
+								{
+									_class = "CLookAtAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 16.0, 0.0 ]
+									m_nNodeID = 
+									{
+										m_id = 171402011
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_inputConnection = 
+									{
+										m_nodeID = 
+										{
+											m_id = 59936807
+										}
+										m_outputID = 
+										{
+											m_id = 4294967295
+										}
+									}
+									m_target = "LookTarget"
+									m_param = 
+									{
+										m_id = 1795222580
+									}
+									m_weightParam = 
+									{
+										m_id = 899752997
+									}
+									m_lookatChainName = "Barrel"
+									m_attachmentName = "forward_reference"
+									m_flYawLimit = 45.0
+									m_flPitchLimit = 45.0
+									m_bResetBase = false
+									m_bLockWhenWaning = false
+									m_bUseHysteresis = false
+									m_flHysteresisInnerAngle = 1.0
+									m_flHysteresisOuterAngle = 20.0
+									m_damping = 
+									{
+										_class = "CAnimInputDamping"
+										m_speedFunction = "NoDamping"
+										m_fSpeedScale = 1.0
+										m_fMinSpeed = 10.0
+										m_fMaxTension = 1000.0
+									}
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 843203562
+								}
+								value = 
+								{
+									_class = "CGroupOutputAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ 240.0, 0.0 ]
+									m_nNodeID = 
+									{
+										m_id = 843203562
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_proxyItems = 
+									[
+										{
+											m_name = "Look Ats Out"
+											m_outputID = 
+											{
+												m_id = 1430178410
+											}
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 171402011
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
+								}
+							},
+							{
+								key = 
+								{
+									m_id = 2092577495
+								}
+								value = 
+								{
+									_class = "CGroupInputAnimNode"
+									m_sName = "Unnamed"
+									m_vecPosition = [ -368.0, 0.0 ]
+									m_nNodeID = 
+									{
+										m_id = 2092577495
+									}
+									m_networkMode = "ClientPredicted"
+									m_sNote = ""
+									m_proxyItems = 
+									[
+										{
+											m_name = "Look Ats Inp"
+											m_outputID = 
+											{
+												m_id = 670601930
+											}
+											m_inputConnection = 
+											{
+												m_nodeID = 
+												{
+													m_id = 4294967295
+												}
+												m_outputID = 
+												{
+													m_id = 4294967295
+												}
+											}
+										},
+									]
+								}
+							},
+						]
+					}
+				}
+			},
+		]
+	}
+	m_pParameterList = 
+	{
+		_class = "CAnimParameterList"
+		m_Parameters = 
+		[
+			{
+				_class = "CVectorAnimParameter"
+				m_name = "aim_turret"
+				m_id = 
+				{
+					m_id = 826829379
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_defaultValue = [ 100.0, 0.0, 0.0 ]
+				m_bInterpolate = true
+			},
+			{
+				_class = "CFloatAnimParameter"
+				m_name = "aim_turret_weight"
+				m_id = 
+				{
+					m_id = 615421791
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_fDefaultValue = 1.0
+				m_fMinValue = 0.0
+				m_fMaxValue = 1.0
+				m_bInterpolate = true
+			},
+			{
+				_class = "CVectorAnimParameter"
+				m_name = "aim_barrel"
+				m_id = 
+				{
+					m_id = 1795222580
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_defaultValue = [ 100.0, 0.0, 0.0 ]
+				m_bInterpolate = true
+			},
+			{
+				_class = "CFloatAnimParameter"
+				m_name = "aim_barrel_weight"
+				m_id = 
+				{
+					m_id = 899752997
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_fDefaultValue = 1.0
+				m_fMinValue = 0.0
+				m_fMaxValue = 1.0
+				m_bInterpolate = true
+			},
+		]
+	}
+	m_pTagManager = 
+	{
+		_class = "CAnimTagManager"
+		m_tags = [  ]
+	}
+	m_pMovementManager = 
+	{
+		_class = "CAnimMovementManager"
+		m_MotorList = 
+		{
+			_class = "CAnimMotorList"
+			m_motors = [  ]
+		}
+		m_MovementSettings = 
+		{
+			_class = "CAnimMovementSettings"
+			m_bShouldCalculateSlope = false
+		}
+	}
+	m_pSettingsManager = 
+	{
+		_class = "CAnimGraphSettingsManager"
+		m_settingsGroups = 
+		[
+			{
+				_class = "CAnimGraphGeneralSettings"
+				m_iGridSnap = 16
+			},
+			{
+				_class = "CAnimGraphNetworkSettings"
+				m_bNetworkingEnabled = true
+				m_defaultNetworkMode = "ServerAuthoritative"
+			},
+		]
+	}
+	m_pActivityValuesList = 
+	{
+		_class = "CActivityValueList"
+		m_activities = [  ]
+	}
+	m_previewModels = 
+	[
+		"models/tanks/lilwillie.vmdl",
+	]
+	m_boneMergeModels = [  ]
+}

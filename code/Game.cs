@@ -10,7 +10,7 @@ namespace TZ
 		{
 			if (IsServer) 
 			{
-				_ = new TZHud();
+				// _ = new TZHud(); // I'll work on it at a later date - Lokiv
 			}
 		}
 
